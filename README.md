@@ -12,7 +12,7 @@ https://yaleedu-my.sharepoint.com/personal/lu_lu_yale_edu/_layouts/15/onedrive.a
 于是这里的deepxde.backend从奇怪的一堆bug的tensorflow.compat.v1换成了pytorch
 运行代码前需要检查c盘.deepxde里的json文件的backend是什么。
 
-二维稳态对流反应扩散方程的数据用matlab做不来，选择了deepxde自带的GRF+有限差分法求解。运行时需先运行generate.py再运行netplot.py，后者同时集成了模型训练与结果评估（画热图）功能；画epoch-loss曲线则需要导出plot.py的数据为一维数组再填充到huatu.py。
+二维稳态对流反应扩散方程的数据用matlab做不来，选择了deepxde自带的GRF+有限差分法求解。运行时需先运行generate.py再运行netplot.py，后者同时集成了模型训练与结果评估（画热图）功能；画epoch-loss曲线则需要导出netplot.py的数据为一维数组再填充到huatu.py。
 
 4年大学恍然就即将结束，风景不错，遗憾不少，
 我曾跌跌撞撞迷失于浮光掠影，却在最后的最后找到了学习的正确路径……
